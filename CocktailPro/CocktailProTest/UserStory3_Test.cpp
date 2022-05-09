@@ -1,5 +1,12 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/CocktailPro.h"
+#include "../CocktailPro/CocktailPro.cpp"
+#undef protected
+#undef private
+
 // USERSTORY: CHECK IF COCKTAIL NUMBERS REMAIN CONSISTENT EVEN IF SOME COCKTAILS FALL AWAY DUE TO UNAVAILABLE INGREDIENTS
 class UserStory3_Test : public ::testing::Test
 {

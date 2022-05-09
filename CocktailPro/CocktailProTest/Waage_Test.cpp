@@ -1,5 +1,14 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/Waage.h"
+#include "../CocktailPro/Waage.cpp"
+#include "../CocktailPro/Subject.h"
+#include "../CocktailPro/Subject.cpp"
+#undef protected
+#undef private
+
 class WaageTest : public ::testing::Test
 {
 public:

@@ -1,5 +1,16 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/InternalDevice.h"
+#include "../CocktailPro/InternalDevice.cpp"
+#include "../CocktailPro/Entleerer.h"
+#include "../CocktailPro/Entleerer.cpp"
+#include "../CocktailPro/Waage.h"
+#include "../CocktailPro/Waage.cpp"
+#undef protected
+#undef private
+
 class InternalDeviceTest : public ::testing::Test
 {
 protected:

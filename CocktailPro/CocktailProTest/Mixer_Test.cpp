@@ -1,5 +1,12 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/Mixer.h"
+#include "../CocktailPro/Mixer.cpp"
+#undef protected
+#undef private
+
 class MixerTest : public ::testing::Test
 {
 protected:

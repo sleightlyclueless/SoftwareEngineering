@@ -1,5 +1,12 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/CocktailPro.h"
+#include "../CocktailPro/CocktailPro.cpp"
+#undef protected
+#undef private
+
 // USERSTORY: CHECK NUMBERS FOR INGREDIENTS AND THEIR DECREASE OVER USAGE OF COCKTAILS - INCLUDING WARNING AT 10% THRESHOLD
 class UserStory2_Test : public ::testing::Test
 {

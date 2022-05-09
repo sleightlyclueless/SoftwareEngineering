@@ -1,5 +1,12 @@
 #include "pch.h"
 
+#define protected public
+#define private public
+#include "../CocktailPro/RecipeStep.h"
+#include "../CocktailPro/RecipeStep.cpp"
+#undef protected
+#undef private
+
 class RecipeStepTest : public ::testing::Test
 {
 protected:
