@@ -3,9 +3,7 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Waage.h"
-#include "../CocktailPro/Waage.cpp"
 #include "../CocktailPro/Subject.h"
-#include "../CocktailPro/Subject.cpp"
 #undef protected
 #undef private
 
@@ -29,7 +27,7 @@ public:
 
 TEST_F(WaageTest, ini)
 {
-    EXPECT_EQ(w->weight, 2000);
+    EXPECT_EQ(w->weight, 0);
 }
 
 TEST_F(WaageTest, tara)

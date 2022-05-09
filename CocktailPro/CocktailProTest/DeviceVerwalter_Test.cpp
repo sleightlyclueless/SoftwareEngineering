@@ -2,12 +2,7 @@
 
 #define protected public
 #define private public
-#include "../CocktailPro/Stampfer.h"
-#include "../CocktailPro/Stampfer.cpp"
-#include "../CocktailPro/VorhandeneZutaten.h"
-#include "../CocktailPro/VorhandeneZutaten.cpp"
 #include "../CocktailPro/DeviceVerwalter.h"
-#include "../CocktailPro/DeviceVerwalter.cpp"
 #undef protected
 #undef private
 

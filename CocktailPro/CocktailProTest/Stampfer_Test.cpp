@@ -3,7 +3,6 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Stampfer.h"
-#include "../CocktailPro/Stampfer.cpp"
 #undef protected
 #undef private
 

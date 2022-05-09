@@ -3,7 +3,6 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Timer.h"
-#include "../CocktailPro/Timer.cpp"
 #undef protected
 #undef private
 

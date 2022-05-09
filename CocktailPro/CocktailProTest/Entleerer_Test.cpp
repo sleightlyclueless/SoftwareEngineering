@@ -3,9 +3,6 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Entleerer.h"
-#include "../CocktailPro/Entleerer.cpp"
-#include "../CocktailPro/Waage.h"
-#include "../CocktailPro/Waage.cpp"
 #undef protected
 #undef private
 

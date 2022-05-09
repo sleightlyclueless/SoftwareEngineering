@@ -3,7 +3,6 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Mixer.h"
-#include "../CocktailPro/Mixer.cpp"
 #undef protected
 #undef private
 

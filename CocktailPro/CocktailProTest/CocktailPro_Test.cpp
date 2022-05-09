@@ -2,8 +2,26 @@
 
 #define protected public
 #define private public
-#include "../CocktailPro/CocktailPro.h"
+/* Needed in top file - include all .cpp files */
+#include "../CocktailPro/Waage.cpp"
+#include "../CocktailPro/VorhandeneZutaten.cpp"
+#include "../CocktailPro/Timer.cpp"
+#include "../CocktailPro/Subject.cpp"
+#include "../CocktailPro/Stampfer.cpp"
+#include "../CocktailPro/Schuettler.cpp"
+#include "../CocktailPro/RecipeStep.cpp"
+#include "../CocktailPro/RecipeBook.cpp"
+#include "../CocktailPro/Recipe.cpp"
+#include "../CocktailPro/Mixer.cpp"
+#include "../CocktailPro/MischbaresRezeptbuch.cpp"
+#include "../CocktailPro/InternalDevice.cpp"
+#include "../CocktailPro/Entleerer.cpp"
+#include "../CocktailPro/Dosierer.cpp"
+#include "../CocktailPro/DeviceVerwalter.cpp"
+#include "../CocktailPro/CocktailZubereiter.cpp"
 #include "../CocktailPro/CocktailPro.cpp"
+
+#include "../CocktailPro/CocktailPro.h"
 #undef protected
 #undef private
 

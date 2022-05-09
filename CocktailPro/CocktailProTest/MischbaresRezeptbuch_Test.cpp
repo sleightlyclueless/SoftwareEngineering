@@ -3,11 +3,8 @@
 #define protected public
 #define private public
 #include "../CocktailPro/MischbaresRezeptbuch.h"
-#include "../CocktailPro/MischbaresRezeptbuch.cpp"
 #include "../CocktailPro/VorhandeneZutaten.h"
-#include "../CocktailPro/VorhandeneZutaten.cpp"
 #include "../CocktailPro/CocktailZubereiter.h"
-#include "../CocktailPro/CocktailZubereiter.cpp"
 #undef protected
 #undef private
 

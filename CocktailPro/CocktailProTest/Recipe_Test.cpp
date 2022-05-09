@@ -3,7 +3,6 @@
 #define protected public
 #define private public
 #include "../CocktailPro/Recipe.h"
-#include "../CocktailPro/Recipe.cpp"
 #undef protected
 #undef private
 
